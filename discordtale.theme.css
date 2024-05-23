@@ -1,0 +1,63 @@
+/**
+ * @name Discordtale
+ * @author Captain_dog_
+ * @version 1.0.5
+ * @description Undertale theme for better discord
+ * @source https://raw.githubusercontent.com/CaptainDog1/Discordtale/main/discordtale.theme.css
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;500;700&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+
+:root {
+
+  
+  --background: url('https://i.imgur.com/YS7UtNv.png');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+  --backgroundblur: 0px;
+  --popout: url('https://i.imgur.com/YS7UtNv.png');
+  --popoutsize: var(--backgroundsize);
+  --backgroundposition: center;
+  --popoutblur: 0px;
+  --transparencycolor: 0,0,0;
+  --accentcolor: 20,175,245;
+  --backdrop: rgb(66,130,147,0.85);
+  --textshadow: transparent;
+  --transparencyalpha: 0.38;
+  --messagetransparency: 0;
+  --guildchanneltransparency: 0;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0;
+  --font: Open Sans;
+  --textbrightest: 255,255,255;
+  --textbrighter: 222,222,222;
+  --textbright: 200,200,200;
+  --textdark: 160,160,160;
+  --textdarker: 125,125,125;
+  --textdarkest: 90,90,90;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #03A9F4;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #DDDDDD;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
+
+  
+}
+
+/* Any custom CSS below here */
